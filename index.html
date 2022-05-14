@@ -4,11 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Motal Management</title>
+   
 </head>
 <body>
-    <h1>This front end</h1>
-    <h2>ABC</h2>
-    <h3>CBD</h3>
+
+    <div class="sidebar">
+        <div class="logo-context">
+            <div class="logo">  
+                <div class="logo_name">MOTEL MANAGEMENT</div>
+            </div>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search...">
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-tachometer' ></i>
+                    <span class="links_name">Trang Chủ</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-home' ></i>
+                    <span class="links_name">Phòng</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cloud-rain' ></i>
+                    <span class="links_name">Dịch vụ phát sinh</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-history' ></i>
+                    <span class="links_name">Lịch sử thuê phòng</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-note' ></i>
+                    <span class="links_name">Báo cáo</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-line-chart' ></i>
+                    <span class="links_name">Doanh thu</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-user' ></i>
+                    <span class="links_name">Tài khoản</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog' ></i>
+                    <span class="links_name">Cài đặt</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>
